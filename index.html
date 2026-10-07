@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Gliffy Dornick — Portfolio</title>
+  <title>Gliffy Dornick — Data Engineer Portfolio</title>
+  <meta name="description" content="Data Engineer specializing in Microsoft Fabric, Azure Data Factory, medallion architecture, SQL and Python."/>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"/>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -369,6 +370,7 @@
   <nav>
     <div class="nav-logo">GDE&thinsp;/&thinsp;RAJ</div>
     <ul class="nav-links">
+      <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -379,17 +381,17 @@
   <section class="hero" id="home">
     <div class="hero-grid"></div>
     <div class="hero-glow"></div>
-    <p class="hero-tag">
+    <p class="hero-tag">Data Engineer · Open to new roles</p>
     <h1 class="hero-name">
       Gliffy Dornick<br/>
       <span>Edwin Raj</span> Regitha
     </h1>
-    <p class="hero-title">Building intelligent systems &amp; backend APIs</p>
+    <p class="hero-title">Building reliable data pipelines on Microsoft Fabric &amp; Azure</p>
     <p class="hero-bio">
-      Software Developer experienced in building and deploying AI models alongside backend systems and RESTful APIs using NestJS, TypeScript, Python, and MongoDB. Passionate about applying AI and software engineering to solve real-world problems.
+      Data Engineer with 2 years of experience in software and data engineering. I build cloud data solutions on Microsoft Fabric and Azure using medallion architecture, data pipelines, SQL, and Python, backed by a strong foundation in backend APIs and a B.Tech in AI &amp; Data Science.
     </p>
     <div class="hero-cta">
-      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#experience" class="btn btn-primary">View Experience</a>
       <a href="#contact" class="btn btn-outline">Get in Touch</a>
     </div>
     <div class="scroll-hint">scroll to explore</div>
@@ -406,17 +408,45 @@
     <div class="exp-card">
       <div class="exp-header">
         <div>
+          <h3 class="exp-role">Data Engineer</h3>
+          <p class="exp-company">Techwave Consulting</p>
+        </div>
+        <span class="exp-date">Aug 2025 – Present</span>
+      </div>
+      <ul class="exp-points">
+        <li>Build and maintain end-to-end data pipelines in Microsoft Fabric to ingest, transform, and load data into Lakehouse and Warehouse layers.</li>
+        <li>Implement medallion architecture (Bronze → Silver → Gold) to clean, standardize, and curate data for analytics.</li>
+        <li>Develop Fabric notebooks in Python and write SQL queries to transform and analyze Lakehouse and Warehouse data.</li>
+        <li>Orchestrate and monitor pipelines using Azure Data Factory and Azure Monitor to track runs and troubleshoot failures.</li>
+        <li>Clean, transform, and normalize datasets of ~14,000 records using Python to support downstream data workflows.</li>
+        <li>Apply data validation checks to ensure accuracy and consistency across data layers.</li>
+      </ul>
+      <div class="exp-tags">
+        <span class="tag tag-green">Microsoft Fabric</span>
+        <span class="tag tag-green">Lakehouse</span>
+        <span class="tag tag-green">Warehouse</span>
+        <span class="tag tag-blue">Medallion Architecture</span>
+        <span class="tag tag-blue">Azure Data Factory</span>
+        <span class="tag tag-blue">Azure Monitor</span>
+        <span class="tag tag-purple">SQL</span>
+        <span class="tag tag-purple">Python</span>
+        <span class="tag tag-purple">Data Validation</span>
+      </div>
+    </div>
+
+    <div class="exp-card">
+      <div class="exp-header">
+        <div>
           <h3 class="exp-role">Backend Developer</h3>
           <p class="exp-company">LearnAsYouGo</p>
         </div>
-        <span class="exp-date">Jan 2025 – May 2025</span>
+        <span class="exp-date">Jul 2024 – May 2025</span>
       </div>
       <ul class="exp-points">
-        <li>Developed and maintained 30+ RESTful APIs using NestJS and TypeScript for a client-facing workflow management system.</li>
-        <li>Implemented layered architecture (Controller–Service–Repository) for modular, maintainable backend structure.</li>
-        <li>Designed MongoDB schemas for core modules including User, Task, and Project management.</li>
-        <li>Integrated JWT-based authentication and role-based access control (RBAC) for secure API access.</li>
-        <li>Tested endpoints using Postman and collaborated in Agile sprints with version control via Git.</li>
+        <li>Developed and maintained 30+ RESTful APIs using NestJS and TypeScript for user, task, and project modules.</li>
+        <li>Designed cloud MongoDB schemas for core modules, enabling efficient data storage and retrieval.</li>
+        <li>Implemented layered architecture (Controller–Service–Repository) for scalable, maintainable backend systems.</li>
+        <li>Integrated JWT authentication and role-based access control (RBAC); tested and debugged endpoints with Postman in Agile sprints using Git.</li>
       </ul>
       <div class="exp-tags">
         <span class="tag tag-green">NestJS</span>
@@ -428,28 +458,6 @@
       </div>
     </div>
 
-    <div class="exp-card">
-      <div class="exp-header">
-        <div>
-          <h3 class="exp-role">Software Developer Intern</h3>
-          <p class="exp-company">Techwave Consulting</p>
-        </div>
-        <span class="exp-date">Sep 2025 – Present</span>
-      </div>
-      <ul class="exp-points">
-        <li>Worked with large structured datasets (14,000+ records) in Excel to support business analysis and reporting.</li>
-        <li>Applied advanced Excel formulas for data cleaning, normalization, column prediction, and multi-sheet processing.</li>
-        <li>Completed structured training in Python, Spring Boot, and React as part of full-stack development exposure.</li>
-      </ul>
-      <div class="exp-tags">
-        <span class="tag tag-green">Python</span>
-        <span class="tag tag-green">Spring Boot</span>
-        <span class="tag tag-blue">React</span>
-        <span class="tag tag-blue">Excel</span>
-        <span class="tag tag-purple">Data Analysis</span>
-      </div>
-    </div>
-
   </div>
 </section>
 
@@ -457,7 +465,7 @@
 
   <!-- Projects -->
   <section id="projects">
-    <p class="section-label">
+    <p class="section-label"></p>
     <h2 class="section-title">Featured Projects</h2>
     <div class="projects-grid">
 
@@ -502,54 +510,61 @@
 
   <!-- Skills -->
   <section id="skills">
-    <p class="section-label">
+    <p class="section-label"></p>
     <h2 class="section-title">Skills &amp; Tools</h2>
     <div class="skills-wrapper">
       <div class="skill-group">
-        <p class="skill-group-title">Languages</p>
+        <p class="skill-group-title">Data Engineering</p>
         <div class="skill-list">
-          <span class="skill-pill">Python</span>
-          <span class="skill-pill">TypeScript</span>
-          <span class="skill-pill">C</span>
-          <span class="skill-pill">C++</span>
-          <span class="skill-pill">Java</span>
+          <span class="skill-pill">Microsoft Fabric</span>
+          <span class="skill-pill">Lakehouse</span>
+          <span class="skill-pill">Warehouse</span>
+          <span class="skill-pill">Data Pipelines</span>
+          <span class="skill-pill">Notebooks</span>
+          <span class="skill-pill">Medallion Architecture</span>
+          <span class="skill-pill">ETL / ELT</span>
+          <span class="skill-pill">Data Validation</span>
         </div>
       </div>
       <div class="skill-group">
-        <p class="skill-group-title">Backend</p>
+        <p class="skill-group-title">Cloud &amp; Orchestration</p>
         <div class="skill-list">
+          <span class="skill-pill">Azure Data Factory</span>
+          <span class="skill-pill">Azure Monitor</span>
+          <span class="skill-pill">Azure Storage Containers</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <p class="skill-group-title">Languages &amp; Databases</p>
+        <div class="skill-list">
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">SQL</span>
+          <span class="skill-pill">MongoDB</span>
+          <span class="skill-pill">Pandas</span>
+          <span class="skill-pill">NumPy</span>
+          <span class="skill-pill">Java</span>
+          <span class="skill-pill">TypeScript</span>
+          <span class="skill-pill">C</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <p class="skill-group-title">Backend, ML &amp; Tools</p>
+        <div class="skill-list">
+          <span class="skill-pill">REST APIs</span>
           <span class="skill-pill">NestJS</span>
           <span class="skill-pill">Flask</span>
           <span class="skill-pill">Spring Boot</span>
-          <span class="skill-pill">REST APIs</span>
           <span class="skill-pill">JWT</span>
-        </div>
-      </div>
-      <div class="skill-group">
-        <p class="skill-group-title">AI &amp; Computer Vision</p>
-        <div class="skill-list">
           <span class="skill-pill">PyTorch</span>
           <span class="skill-pill">TensorFlow</span>
           <span class="skill-pill">OpenCV</span>
-          <span class="skill-pill">CNNs</span>
-          <span class="skill-pill">Feature Extraction</span>
-        </div>
-      </div>
-      <div class="skill-group">
-        <p class="skill-group-title">Databases &amp; Tools</p>
-        <div class="skill-list">
-          <span class="skill-pill">MongoDB</span>
-          <span class="skill-pill">SQL</span>
           <span class="skill-pill">Git</span>
           <span class="skill-pill">Postman</span>
-          <span class="skill-pill">NumPy</span>
-          <span class="skill-pill">Pandas</span>
+          <span class="skill-pill">Excel</span>
         </div>
       </div>
     </div>
   </section>
-
-  <div class="divider"></div>
 
   <div class="divider"></div>
 
@@ -563,7 +578,7 @@
       <div class="edu-icon">🎓</div>
       <div>
         <h3 class="edu-degree">B.Tech in Artificial Intelligence &amp; Data Science</h3>
-        <p class="edu-school">Mepco Schlenk Engineering College, Sivakasi</p>
+        <p class="edu-school">Mepco Schlenk Engineering College, India</p>
         <p class="edu-meta">2021 – 2025 &nbsp;·&nbsp; CGPA: <strong>7.99 / 10</strong></p>
       </div>
     </div>
@@ -598,9 +613,9 @@
   <section id="contact">
     <div class="contact-wrapper">
       <p class="section-label"></p>
-      <h2 class="contact-headline">Let's build something<br/><span>meaningful.</span></h2>
+      <h2 class="contact-headline">Let's build data<br/><span>people can trust.</span></h2>
       <p style="color:var(--muted); font-size:0.95rem; max-width:420px; line-height:1.7;">
-        I'm open to new opportunities, collaborations, or just a good conversation about AI and software engineering.
+        I'm open to Data Engineer opportunities, collaborations, or a good conversation about data platforms, Microsoft Fabric, and Azure.
       </p>
       <div class="contact-links">
         <a class="contact-link" href="mailto:gliffy.dornick@gmail.com">
